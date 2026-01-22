@@ -3,15 +3,15 @@
 A high-performance, asynchronous CLI tool designed for rapid username enumeration across 100+ platforms. Engineered for speed and precision using Python’s httpx and asyncio libraries.
 🚀 Key Features
 
-    Asynchronous Architecture: Scan 100+ sources in under 60 seconds.
+  Asynchronous Architecture: Scan 100+ sources in under 60 seconds.
 
-    Intelligent Detection: Handles both HTTP status codes and "soft 404" response patterns.
+  Intelligent Detection: Handles both HTTP status codes and "soft 404" response patterns.
 
-    Stealth-Ready: Configurable rate limiting and User-Agent rotation to bypass basic anti-bot filters.
+  Stealth-Ready: Configurable rate limiting and User-Agent rotation to bypass basic anti-bot filters.
 
-    Professional Output: Clean, color-coded CLI tables with export support for JSON and TXT.
+  Professional Output: Clean, color-coded CLI tables with export support for JSON and TXT.
 
-    Extensible: Simple sites.json structure for adding custom platforms.
+  Extensible: Simple sites.json structure for adding custom platforms.
 
 🛠️ Installation
 Bash
@@ -57,6 +57,7 @@ This tool is for educational and authorized security testing only. The developer
 
 Developed by Anmoldeep Singh Khaira – Cybersecurity enthusiast and software developer.
 
-    LinkedIn: Anmoldeep Singh Khaira
+LinkedIn: www.linkedin.com/in/anmoldeep-singh-khaira-249921280
 
-    Instagram: @khaira_saab_001
+Instagram: @khaira_saab_001
+
