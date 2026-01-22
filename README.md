@@ -59,5 +59,6 @@ Developed by Anmoldeep Singh Khaira – Cybersecurity enthusiast and software de
 
 LinkedIn: www.linkedin.com/in/anmoldeep-singh-khaira-249921280
 
-Instagram: @khaira_saab_001
+Instagram: https://www.instagram.com/khaira_saab_001/
+
 
