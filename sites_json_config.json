@@ -1,0 +1,722 @@
+{
+  "sites": [
+    {
+      "name": "GitHub",
+      "url_template": "https://github.com/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "GitLab",
+      "url_template": "https://gitlab.com/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Reddit",
+      "url_template": "https://www.reddit.com/user/{username}",
+      "detection_type": "message_body",
+      "error_message": "Sorry, nobody on Reddit goes by that name",
+      "category": "social"
+    },
+    {
+      "name": "Instagram",
+      "url_template": "https://www.instagram.com/{username}/",
+      "detection_type": "message_body",
+      "error_message": "Sorry, this page isn't available",
+      "category": "social"
+    },
+    {
+      "name": "Twitter/X",
+      "url_template": "https://twitter.com/{username}",
+      "detection_type": "message_body",
+      "error_message": "This account doesn't exist",
+      "category": "social"
+    },
+    {
+      "name": "LinkedIn",
+      "url_template": "https://www.linkedin.com/in/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Medium",
+      "url_template": "https://medium.com/@{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Dev.to",
+      "url_template": "https://dev.to/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "HackerNews",
+      "url_template": "https://news.ycombinator.com/user?id={username}",
+      "detection_type": "message_body",
+      "error_message": "No such user",
+      "category": "development"
+    },
+    {
+      "name": "Stack Overflow",
+      "url_template": "https://stackoverflow.com/users/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Behance",
+      "url_template": "https://www.behance.net/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Dribbble",
+      "url_template": "https://dribbble.com/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Twitch",
+      "url_template": "https://www.twitch.tv/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Steam",
+      "url_template": "https://steamcommunity.com/id/{username}",
+      "detection_type": "message_body",
+      "error_message": "The specified profile could not be found",
+      "category": "gaming"
+    },
+    {
+      "name": "Chess.com",
+      "url_template": "https://www.chess.com/member/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "YouTube",
+      "url_template": "https://www.youtube.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "TikTok",
+      "url_template": "https://www.tiktok.com/@{username}",
+      "detection_type": "message_body",
+      "error_message": "Couldn't find this account",
+      "category": "social"
+    },
+    {
+      "name": "Pinterest",
+      "url_template": "https://www.pinterest.com/{username}/",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Flickr",
+      "url_template": "https://www.flickr.com/people/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Quora",
+      "url_template": "https://www.quora.com/profile/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Telegram",
+      "url_template": "https://t.me/{username}",
+      "detection_type": "message_body",
+      "error_message": "If you have <strong>Telegram</strong>, you can contact",
+      "category": "social"
+    },
+    {
+      "name": "Patreon",
+      "url_template": "https://www.patreon.com/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "SoundCloud",
+      "url_template": "https://soundcloud.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Spotify",
+      "url_template": "https://open.spotify.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Bitbucket",
+      "url_template": "https://bitbucket.org/{username}/",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Roblox",
+      "url_template": "https://www.roblox.com/users/profile?username={username}",
+      "detection_type": "message_body",
+      "error_message": "Page cannot be found or no longer exists",
+      "category": "gaming"
+    },
+    {
+      "name": "Keybase",
+      "url_template": "https://keybase.io/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Codecademy",
+      "url_template": "https://www.codecademy.com/profiles/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "HackerOne",
+      "url_template": "https://hackerone.com/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Gravatar",
+      "url_template": "https://gravatar.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "9GAG",
+      "url_template": "https://9gag.com/u/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "About.me",
+      "url_template": "https://about.me/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Ask FM",
+      "url_template": "https://ask.fm/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Badoo",
+      "url_template": "https://badoo.com/en/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "BuzzFeed",
+      "url_template": "https://www.buzzfeed.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Dailymotion",
+      "url_template": "https://www.dailymotion.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Discogs",
+      "url_template": "https://www.discogs.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Docker Hub",
+      "url_template": "https://hub.docker.com/u/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Etsy",
+      "url_template": "https://www.etsy.com/shop/{username}",
+      "detection_type": "message_body",
+      "error_message": "Sorry, we couldn't find that page",
+      "category": "professional"
+    },
+    {
+      "name": "Fiverr",
+      "url_template": "https://www.fiverr.com/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Flipboard",
+      "url_template": "https://flipboard.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Fotolog",
+      "url_template": "https://fotolog.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Giphy",
+      "url_template": "https://giphy.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Goodreads",
+      "url_template": "https://www.goodreads.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Houzz",
+      "url_template": "https://www.houzz.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Imgur",
+      "url_template": "https://imgur.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Issuu",
+      "url_template": "https://issuu.com/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Kongregate",
+      "url_template": "https://www.kongregate.com/accounts/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Last.fm",
+      "url_template": "https://www.last.fm/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Mastodon",
+      "url_template": "https://mastodon.social/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Mix",
+      "url_template": "https://mix.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "MySpace",
+      "url_template": "https://myspace.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Periscope",
+      "url_template": "https://www.pscp.tv/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Product Hunt",
+      "url_template": "https://www.producthunt.com/@{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Replit",
+      "url_template": "https://replit.com/@{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "ResearchGate",
+      "url_template": "https://www.researchgate.net/profile/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Rumble",
+      "url_template": "https://rumble.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Scribd",
+      "url_template": "https://www.scribd.com/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Signal",
+      "url_template": "https://community.signalusers.org/u/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Slack",
+      "url_template": "https://{username}.slack.com",
+      "detection_type": "message_body",
+      "error_message": "This workspace doesn't exist",
+      "category": "professional"
+    },
+    {
+      "name": "SlideShare",
+      "url_template": "https://www.slideshare.net/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Snapchat",
+      "url_template": "https://www.snapchat.com/add/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "SourceForge",
+      "url_template": "https://sourceforge.net/u/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Speedrun.com",
+      "url_template": "https://www.speedrun.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Splits.io",
+      "url_template": "https://splits.io/users/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Strava",
+      "url_template": "https://www.strava.com/athletes/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Telegram",
+      "url_template": "https://t.me/{username}",
+      "detection_type": "message_body",
+      "error_message": "If you have Telegram, you can contact",
+      "category": "social"
+    },
+    {
+      "name": "TikTok",
+      "url_template": "https://www.tiktok.com/@{username}",
+      "detection_type": "message_body",
+      "error_message": "Couldn't find this account",
+      "category": "social"
+    },
+    {
+      "name": "Trakt",
+      "url_template": "https://www.trakt.tv/users/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "TripAdvisor",
+      "url_template": "https://www.tripadvisor.com/members/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Tumblr",
+      "url_template": "https://{username}.tumblr.com",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Venmo",
+      "url_template": "https://venmo.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Vimeo",
+      "url_template": "https://vimeo.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "VSCO",
+      "url_template": "https://vsco.co/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Wattpad",
+      "url_template": "https://www.wattpad.com/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "We Heart It",
+      "url_template": "https://weheartit.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Wikipedia",
+      "url_template": "https://en.wikipedia.org/wiki/User:{username}",
+      "detection_type": "message_body",
+      "error_message": "There is currently no text in this page",
+      "category": "professional"
+    },
+    {
+      "name": "WordPress",
+      "url_template": "https://{username}.wordpress.com",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Xbox Gamertag",
+      "url_template": "https://xboxgamertag.com/search/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "XING",
+      "url_template": "https://www.xing.com/profile/{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "YouNow",
+      "url_template": "https://www.younow.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Zhihu",
+      "url_template": "https://www.zhihu.com/people/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "AllMyLinks",
+      "url_template": "https://allmylinks.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "AniList",
+      "url_template": "https://anilist.co/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Clubhouse",
+      "url_template": "https://www.clubhouse.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Codepen",
+      "url_template": "https://codepen.io/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Coderwall",
+      "url_template": "https://coderwall.com/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "DeviantArt",
+      "url_template": "https://www.deviantart.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Duolingo",
+      "url_template": "https://www.duolingo.com/profile/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Ello",
+      "url_template": "https://ello.co/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Fortnite Tracker",
+      "url_template": "https://fortnitetracker.com/profile/all/{username}",
+      "detection_type": "message_body",
+      "error_message": "Player Not Found",
+      "category": "gaming"
+    },
+    {
+      "name": "Gfycat",
+      "url_template": "https://gfycat.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Habbo",
+      "url_template": "https://www.habbo.com/profile/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Hearts",
+      "url_template": "https://hearts.land/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "HubPages",
+      "url_template": "https://hubpages.com/@{username}",
+      "detection_type": "status_code",
+      "category": "professional"
+    },
+    {
+      "name": "Itch.io",
+      "url_template": "https://{username}.itch.io",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Kik",
+      "url_template": "https://kik.me/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Linktree",
+      "url_template": "https://linktr.ee/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Lobsters",
+      "url_template": "https://lobste.rs/u/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Matrix",
+      "url_template": "https://matrix.to/#/@{username}:matrix.org",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Mixer",
+      "url_template": "https://mixer.com/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "NPM",
+      "url_template": "https://www.npmjs.com/~{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "OKCupid",
+      "url_template": "https://www.okcupid.com/profile/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url_template": "https://www.openstreetmap.org/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Poshmark",
+      "url_template": "https://poshmark.com/closet/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "PyPI",
+      "url_template": "https://pypi.org/user/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "ReverbNation",
+      "url_template": "https://www.reverbnation.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Roblox",
+      "url_template": "https://www.roblox.com/users/profile?username={username}",
+      "detection_type": "message_body",
+      "error_message": "Page cannot be found or no longer exists",
+      "category": "gaming"
+    },
+    {
+      "name": "Scratch",
+      "url_template": "https://scratch.mit.edu/users/{username}",
+      "detection_type": "status_code",
+      "category": "development"
+    },
+    {
+      "name": "Smashcast",
+      "url_template": "https://www.smashcast.tv/{username}",
+      "detection_type": "status_code",
+      "category": "gaming"
+    },
+    {
+      "name": "Steemit",
+      "url_template": "https://steemit.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Telegram",
+      "url_template": "https://t.me/{username}",
+      "detection_type": "message_body",
+      "error_message": "If you have Telegram, you can contact",
+      "category": "social"
+    },
+    {
+      "name": "Tinder",
+      "url_template": "https://www.gotinder.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "TrailersHub",
+      "url_template": "https://www.trailershub.org/user/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Unsplash",
+      "url_template": "https://unsplash.com/@{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "VK",
+      "url_template": "https://vk.com/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    },
+    {
+      "name": "Wordnik",
+      "url_template": "https://www.wordnik.com/users/{username}",
+      "detection_type": "status_code",
+      "category": "social"
+    }
+  ]
+}

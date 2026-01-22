@@ -1,0 +1,11 @@
+# Core async HTTP client
+httpx[http2]==0.27.0
+
+# Terminal UI and progress bars
+rich==13.7.0
+
+# Async support (included in Python 3.7+, but listed for clarity)
+# asyncio is part of standard library
+
+# Optional: For alternative colored output
+colorama==0.4.6
